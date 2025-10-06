@@ -15,8 +15,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	exit;
 }
 
-
-
+wfLoadSkin( 'Vector' );
 
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
