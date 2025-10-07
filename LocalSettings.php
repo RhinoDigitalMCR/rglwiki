@@ -129,4 +129,5 @@ $wgDefaultSkin = "vector";
 
 wfLoadSkin( 'Vector' );
 wfLoadExtension( 'VisualEditor' );
+wfLoadExtension('UserManager');
 
