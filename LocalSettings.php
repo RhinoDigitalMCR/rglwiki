@@ -15,8 +15,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	exit;
 }
 
-wfLoadSkin( 'Vector' );
-
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
@@ -124,8 +122,11 @@ $wgDiff3 = "/usr/bin/diff3";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
-$wgDefaultSkin = "Vector";
+$wgDefaultSkin = "vector";
 
 # End of automatically generated settings.
 # Add more configuration options below.
+
+wfLoadSkin( 'Vector' );
+wfLoadExtension( 'VisualEditor' );
 
